@@ -27,7 +27,6 @@ Before you begin, make sure you have the following installed:
 
 First, create a virtual environment to isolate your project's dependencies:
 
-```bash
 # Create a virtual environment
 python -m venv myenv
 
@@ -35,6 +34,6 @@ python -m venv myenv
 source myenv/bin/activate
 
 # Activate the virtual environment (Windows)
-myenv\Scripts\activate```
+myenv\Scripts\activate
 
 [For more](https://dev.to/shahahaco/sockets-for-real-time-data-flow-with-django-rest-framework-2bh6)
