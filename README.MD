@@ -36,4 +36,4 @@ source myenv/bin/activate
 # Activate the virtual environment (Windows)
 myenv\Scripts\activate
 
-[For more](https://dev.to/shahahaco/sockets-for-real-time-data-flow-with-django-rest-framework-2bh6)
+ [For more information, check out](https://dev.to/shahahaco/sockets-for-real-time-data-flow-with-django-rest-framework-2bh6)
