@@ -1,2 +1,4 @@
 vsocket/*
 socketapp/migrations/*
+__pycache__/
+*.sqlite3
