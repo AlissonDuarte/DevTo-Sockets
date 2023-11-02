@@ -4,7 +4,7 @@ This step-by-step guide will help you set up a WebSocket-based application using
 
 ## Table of Contents
 
-1. [Context](#1-Context)
+1. [Context](#1-Prerequisites)
 2. [Creating a Virtual Environment](#2-creating-a-virtual-environment)
 3. [Creating a Django Project](#3-creating-a-django-project)
 4. [Creating a Django App](#4-creating-a-django-app)
