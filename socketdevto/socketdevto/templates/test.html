@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Teste</title>
+        
+    </head>
+    <body>
+        <h1 id = "app">{{ value }}</h1>
+    </body>
+</html>
+
+
+<script>
+    var socket = new WebSocket("ws://localhost:8000/ws/teste/");
+    socket.onmessage = function(event) {
+        var djangodata = event.data;
+        console.log(djangodata);
+        document.querySelector("#app").innerText = djangodata;
+    };
+
+    
+</script>
