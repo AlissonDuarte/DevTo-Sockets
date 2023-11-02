@@ -7,8 +7,9 @@ from channels.generic.websocket import WebsocketConsumer
 class Consumer(WebsocketConsumer):
     def connect(self):
         self.accept()
-        while True:
+        while '1' in Queue.objects.all().values_list('status', flat=True):
             self.send(text_data=json.dumps({"value":Random.objects.all().count()}))
+            Random.objects.create(text = "test")
             time.sleep(2)
         self.close()
 

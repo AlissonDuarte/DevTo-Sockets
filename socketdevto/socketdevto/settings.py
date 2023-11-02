@@ -56,7 +56,7 @@ ROOT_URLCONF = 'socketdevto.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR.joinpath('socketdevto/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

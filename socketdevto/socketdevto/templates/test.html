@@ -10,7 +10,7 @@
 
 
 <script>
-    var socket = new WebSocket("ws://localhost:8000/ws/teste/");
+    var socket = new WebSocket("ws://localhost:8000/ws/test/");
     socket.onmessage = function(event) {
         var djangodata = event.data;
         console.log(djangodata);
